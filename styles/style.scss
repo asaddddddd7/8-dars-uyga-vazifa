@@ -1,0 +1,109 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* open-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* open-sans-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/open-sans-v40-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* open-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/open-sans-v40-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* open-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v40-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* open-sans-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/open-sans-v40-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  body{
+    max-width: 1440px;
+  }
+  .image{
+    margin-top: 40px;
+   margin: left 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+  .image_image{
+    margin-left: 300px;
+  }
+  .text_h1{
+font-size: 24px;
+font-weight: 400;
+line-height: 33.6px;
+text-align: left;
+color:rgba(42, 37, 75, 1);
+margin: left 500px;
+  }
+  .text{
+    margin-top: 80px;
+    margin-left: 870px;
+  }
+  .container {
+    max-width: 1600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.cards {
+    width: 1224px;
+    height: 618px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgba(249, 249, 249, 1);
+    width: Fixed (305px)px;
+height: Hug (244px)px;
+top: 150px;
+left: 80px;
+padding: 48px 0px 0px 0px;
+gap: 10px;
+opacity: 0px;
+margin-left: 300px;
+gap:20px;
+
+}
+.card1{
+margin-left: 20px;
+        width: 460px;
+        height: 554px;
+        border: 1px solid transparent;
+        background-color: white;
+        padding: 16px;
+        border-radius: 8px;
+    
+}
